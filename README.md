@@ -38,6 +38,11 @@ conda activate sam2-rs
 pip install -r requirements.txt
 ```
 
+## Training
+
+Direct download (example): sam2_hiera_large.pt
+https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt
+
 ## 📥 预测图下载
 
 预测结果已上传至百度网盘（提取码：`t4dv`），点击下面链接下载：  
