@@ -40,8 +40,15 @@ pip install -r requirements.txt
 
 ## Training
 
-Direct download (example): sam2_hiera_large.pt
-https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt
+### Download Weights
+
+Download the pretrained weights file `sam2_hiera_large.pt`. The download link is wrapped below:
+
+[Download Weights](https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt)
+
+### Run Training
+
+Use the `train.sh` script to start training. Make sure the weights file is placed in the correct path (e.g., `sam2_hiera_large.pt` in the current directory).
 
 ## 📥 预测图下载
 
