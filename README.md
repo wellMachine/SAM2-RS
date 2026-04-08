@@ -50,6 +50,14 @@ Download the pretrained weights file `sam2_hiera_large.pt`. The download link is
 
 Use the `train.sh` script to start training. Make sure the weights file is placed in the correct path (e.g., `sam2_hiera_large.pt` in the current directory).
 
+## Test
+
+Use the `test.sh` script to run testing.
+
+## Eval
+
+Use the `eval.sh` script to run testing.
+
 ## 📥 预测图下载
 
 预测结果已上传至百度网盘（提取码：`t4dv`），点击下面链接下载：  
