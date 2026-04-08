@@ -36,6 +36,7 @@ If you already have a working environment for SAM2, you can reuse it. Otherwise,
 conda create -n sam2-rs python=3.10
 conda activate sam2-rs
 pip install -r requirements.txt
+```
 
 ## 📥 预测图下载
 
