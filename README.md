@@ -42,9 +42,12 @@ pip install -r requirements.txt
 
 ### Download Weights
 
-Download the pretrained weights file `sam2_hiera_large.pt`. The download link is wrapped below:
+Download the pretrained weights file `sam2_hiera`. The download link is wrapped below:
 
-[Download Weights](https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt)
+- [sam2_hiera_tiny.pt](https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_tiny.pt)
+- [sam2_hiera_small.pt](https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_small.pt)
+- [sam2_hiera_base_plus.pt](https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_base_plus.pt)
+- [sam2_hiera_large.pt](https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt)
 
 ### Run Training
 
