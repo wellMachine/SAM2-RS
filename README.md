@@ -50,13 +50,55 @@ Download the pretrained weights file `sam2_hiera_large.pt`. The download link is
 
 Use the `train.sh` script to start training. Make sure the weights file is placed in the correct path (e.g., `sam2_hiera_large.pt` in the current directory).
 
+Example `train.sh` content:
+
+```bash
+#!/bin/bash
+# Training script example
+python train.py \
+--hiera_path "/path/to/sam2_hiera_large.pt" \
+--train_image_path "/path/to/train/images/" \
+--train_mask_path "/path/to/train/masks/" \
+--save_path "/path/to/output/checkpoints/" \
+--epoch  \
+--lr  \
+--batch_size
+```
+
 ## Test
 
 Use the `test.sh` script to run testing.
 
+### Run Testing
+
+Example `test.sh` content:
+
+```bash
+#!/bin/bash
+# Testing script example
+CUDA_VISIBLE_DEVICES="" \
+python test.py \
+--checkpoint "/path/to/checkpoints/SAM2_RS-best.pth" \
+--test_image_path "/path/to/test/images/" \
+--test_gt_path "/path/to/test/masks/" \
+--save_path "/path/to/output/predictions/" 
+```
+
 ## Eval
 
 Use the `eval.sh` script to run testing.
+
+### Run Eval
+
+Example `eval.sh` content:
+
+```bash
+#!/bin/bash
+# Eval script example
+python eval.py \
+--pred_path "/path/to/prediction/results/" \
+--gt_path "/path/to/ground_truth/masks/" 
+```
 
 ## 📥 预测图下载
 
