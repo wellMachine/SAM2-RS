@@ -15,10 +15,6 @@ conda create -n sam2-rs python=3.10
 conda activate sam2-rs
 pip install -r requirements.txt
 
-# SAM2_RS
-
-SAM2_RS is a segmentation model built on top of SAM2 (Segment Anything Model 2) as the encoder, with custom modules (FEMRM + MAD) for downstream segmentation.
-
 ## Project Structure
 
 - `SAM2-RS.py`: model implementation (contains `class SAM2_RS`)
