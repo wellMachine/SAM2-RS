@@ -1,4 +1,4 @@
-# SAM2-RS
+# Unleashing the Potential of Segment Anything Model 2 for Efficient ORSI Salient Object Detection
 
 ## 📥 预测图下载
 
