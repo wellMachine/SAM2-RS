@@ -4,7 +4,6 @@ import torch.nn.functional as F
 from sam2.build_sam import build_sam2
 from torch import Tensor
 from typing import List, Optional
-from sam2.var import MyVarFeatureEnhance
 from typing import Tuple
 
 
